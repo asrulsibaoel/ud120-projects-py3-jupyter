@@ -57,7 +57,7 @@ data = feature_format(dictionary, features_list, remove_any_zeroes=True, sort_ke
 ### 1. Clone the repo
 
 ```bash
-$ git clone https://github.com/trsvchn/ud120-projects-py3-jupyter.git
+$ git clone https://github.com/trsvchn/ud120-projects-py3-jupyter.git ud120-projects-v2
 $ cd ud120-projects-v2
 ```
 
@@ -82,5 +82,5 @@ $ conda activate ud120
 ### 3. Run starter script to check env and download required data
 
 ```bash
-$ python ./utils/starter.py
+$ python ./utils/startup.py
 ```
