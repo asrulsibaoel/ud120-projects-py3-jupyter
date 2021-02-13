@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def pretty_picture(clf, X_test, y_test):
+def pretty_picture(clf, X_test, y_test, output='test'):
     x_min = 0.0
     x_max = 1.0
     y_min = 0.0
@@ -36,7 +36,7 @@ def pretty_picture(clf, X_test, y_test):
     plt.xlabel('bumpiness')
     plt.ylabel('grade')
 
-    plt.savefig('test.png')
+    plt.savefig(f'{output}.jpg')
 
 
 def output_image(name, iformat, ibytes):
